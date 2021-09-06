@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.menu_bar{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    box-shadow: 0px 0px 10px -5px black;
+
+}
+/* nav section */
+.logo img{
+    height: 50px;
+    width: 80px;
+    cursor: pointer;
+
+}
+.nav ul{
+    display: flex;
+    justify-content: right;
+}
+.nav ul li{
+    list-style: none;
+    padding: 15px 15px;
+}
+.nav ul li a{
+    color: #5c5c58;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+.nav ul li a:hover{
+    color: tomato;
+}
+.nav ul li i{
+    color: #5c5c58;
+    font-size: 14px;
+}
+.nav ul li i:hover{
+    color: tomato;
+    cursor: pointer;
+}
+
+/* banner section  */
+.banner{
+    background: url('https://www.publicdomainpictures.net/pictures/170000/velka/banner-header-tapete-1463483351bhS.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px 0px;
+}
+.banner h1{
+    color: #629c93;
+    font-size: 80px;
+}
+.banner h4{
+    color: #629c93;
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin: -15px 0px 15px 0px;
+}
+.banner button{
+    border: 2px solid white;
+    background: none;
+    padding: 15px 50px;
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.banner button:hover{
+    border: 2px solid tomato;
+    color: tomato;
+}
+
+/* Content section  */
+.content{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px;
+
+}
+
+.image img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+ 
+}
+.details h1{
+    font-size: 20px;
+    color: #5c5c58;
+    margin: 30px 0px 0px 50px  
+
+}
+.details h5{
+    font-size: 10px;
+    color: #5c5c58;
+    margin: -5px 0px 0px 50px ; 
+}
+.details p{
+    margin: 10px 50px ;
+    text-align: justify;
+}
+
+/* blog section  */
+.blog_title{
+    text-align: center;
+    margin: 50px 0px;
+    color: #5c5c58;
+    letter-spacing: 2px;
+}
+.blog{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.blog_card{
+    width: 220px;
+    box-shadow: 0px 0px 10px -5px black;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+}
+.cards_top{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 15px 5px; */
+}
+.blog_card img{
+    width: 100%;
+}
+.cards_top p{
+    font-size: 10px;
+    color: #5c5c58;
+}
+.blog_card h4{
+    font-size: 15px;
+    color: #5c5c58;
+    font-weight: 400;
+    margin: 20px 0px 10px 10px;
+}
+.blog_card p{
+    font-size: 12px;
+    color: #5c5c58;
+    margin: 10px 0px 10px 10px;
+    width: 80%;
+    text-align: justify;
+}
+.blog_card button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+/* footer section  */
+.footer{
+    
+}
+.footer_main{
+    width: 100vw;
+    background-color: #5c5c58;
+    margin-top: 50px;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.main_footer_col_01 ul{
+    margin: 20px 20px;
+}
+.main_footer_col_01 ul li{
+    list-style: none;
+    margin: 5px;
+    background-color: tomato;
+    color: white;
+   padding-left: 10px;
+}
+
+.footer-2{
+    height: 30px;
+    background: black;
+    color: #5c5c58;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
